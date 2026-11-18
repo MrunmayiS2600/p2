@@ -9,7 +9,7 @@ A terminal-inspired developer portfolio for **Yogesh Govari** — Software Devel
 </div>
 
 ## Features
-- Dark "terminal / IDE" look: neon green & cyan, code-rain background, scanlines, HUD-style cards and a VS Code-like status bar
+- Dark "terminal / IDE" look: electric blue, cyan & violet, code-rain background, scanlines, HUD-style cards and a VS Code-like status bar
 - Animated **object-detection HUD** inspired by the Visual Assist project
 - Typed role line, animated counters, scroll reveals, scroll-spy navigation
 - Dark / light theme toggle (remembered in the browser)

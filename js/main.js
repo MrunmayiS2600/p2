@@ -13,7 +13,7 @@
   const saved = store.get('yg-theme');
   if (saved) root.dataset.theme = saved;
   const meta = $('meta[name="theme-color"]');
-  const syncMeta = () => { meta.content = root.dataset.theme === 'dark' ? '#04080a' : '#eef3f2'; };
+  const syncMeta = () => { meta.content = root.dataset.theme === 'dark' ? '#050a1c' : '#eef3ff'; };
   syncMeta();
   $('#theme').addEventListener('click', () => {
     root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
@@ -103,7 +103,7 @@
         last = t;
         ctx.fillStyle = 'rgba(0,0,0,0.12)'; ctx.globalCompositeOperation = 'destination-out'; ctx.fillRect(0, 0, W, H); ctx.globalCompositeOperation = 'source-over';
         ctx.font = fs + 'px monospace';
-        const color = root.dataset.theme === 'light' ? '#0a8f4f' : '#39ff88';
+        const color = root.dataset.theme === 'light' ? '#2563eb' : '#60a5fa';
         for (let i = 0; i < cols; i++) {
           ctx.fillStyle = color; ctx.fillText(glyphs[(Math.random() * glyphs.length) | 0], i * fs, drops[i] * fs);
           if (drops[i] * fs > H && Math.random() > 0.975) drops[i] = 0;
